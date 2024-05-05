@@ -12,7 +12,7 @@ Public Class Form3
 
     End Sub
     Private Sub DisplayMovies()
-        con = New MySqlConnection("Server=localhost;Database=moncinema;Uid=root;Pwd=Dashboard@2024;")
+        con = New MySqlConnection("Server=localhost;Database=moncinema;Uid=root;Pwd=*******;")
         Dim SDA As New MySqlDataAdapter
         Dim t As New DataTable
         Dim Bs As New BindingSource
