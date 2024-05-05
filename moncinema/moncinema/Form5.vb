@@ -14,7 +14,7 @@ Public Class Form5
     Private Sub Form5_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         con = New MySqlConnection
         con.ConnectionString =
-            "Server=localhost;Database=moncinema;Uid=root;Pwd=Dashboard@2024;"
+            "Server=localhost;Database=moncinema;Uid=root;Pwd=********;"
         Try
             con.Open()
             Dim query As String
